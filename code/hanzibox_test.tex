@@ -1,0 +1,40 @@
+\documentclass[12pt,UTF-8]{ctexbook}
+\usepackage{ctex}
+\usepackage{titlesec}
+\usepackage[BoldFont]{xeCJK}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{hanzibox}
+\usepackage{xpinyin}
+
+\setCJKmainfont[BoldFont=NSimSun]{SimSun}
+\setmainfont{CMU Serif}
+\xpinyinsetup{ratio=0.4}
+\titleformat{\section}{\zihao{-2}\bfseries}{ \thesection }{16pt}{}
+\setlength{\lineskip}{12pt}
+\setlength{\parskip}{20pt}
+\hanziboxset{tran=false,frametype=none,framelinewidth=0pt} % fillcolor=yellow!10,charcolor=red,xscale=1,yscale=1,resize=real,framecolor=blue
+% 封面
+\title{\zihao{0} \bfseries 标题}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\newpage
+
+
+
+{\zihao{4}
+    \xpinyin*{我总以为大兴安岭奇峰怪石，高不可攀。这回有机会看到它，并且走进原始森林，脚落在积得几尺厚的松针上，手摸到那些古木，才证实了这个悦耳的名字是那种亲切与舒服。}
+}
+
+{\zihao{4}\bfseries
+    \xpinyin*{我总以为大兴安岭奇峰怪石，高不可攀。这回有机会看到它，并且走进原始森林，脚落在积得几尺厚的松针上，手摸到那些古木，才证实了这个悦耳的名字是那种亲切与舒服。}
+}
+
+\begin{pinyinscope}
+列位看官：你道此书从何而来？说起根由，虽近荒唐，细按则深有趣味。
+待在下将此来历注明，方使阅者\xpinyin{了}{liao3}然不惑。
+\end{pinyinscope}
+
+    
+\end{document}

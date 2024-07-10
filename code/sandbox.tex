@@ -1,0 +1,258 @@
+\documentclass[12pt,UTF8]{ctexbook}
+\usepackage{ctex}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[table,dvipsnames]{xcolor}
+\usepackage{tabularx}
+\usepackage{longtable}
+% \let\tablecaption\caption
+% \let\caption\relax
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{xfrac}
+\usepackage{eucal}
+\usepackage{titlesec}
+\usepackage{amsthm}
+\usepackage{tikz-cd}
+\usepackage{enumitem}
+\usepackage{verbatim}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{xeCJK} 
+\usepackage{caption}
+\usepackage{thmtools, thm-restate}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\tcbuselibrary{most}
+% 修改脚注的编号为加圈样式，并且各页单独编号
+\usepackage{pifont}
+\usepackage[perpage,symbol*]{footmisc}
+\DefineFNsymbols{circled}{{\ding{192}}{\ding{193}}{\ding{194}}
+{\ding{195}}{\ding{196}}{\ding{197}}{\ding{198}}{\ding{199}}{\ding{200}}{\ding{201}}}
+\setfnsymbol{circled}
+
+\definecolor{gl}{RGB}{246, 252, 240}
+\definecolor{gd}{RGB}{236, 244, 230}
+\definecolor{bg}{RGB}{242, 244, 228}
+
+\setCJKmainfont[BoldFont=STZhongsong, AutoFakeSlant=0.2]{STSong}
+\setCJKmonofont{simkai.ttf} % for \texttt
+\setCJKsansfont{simfang.ttf} % for \textsf
+\setlength\parskip{8pt}
+\setlength{\fboxsep}{12pt}
+\renewcommand\thesection{\arabic{chapter}.\arabic{section}}
+\newcommand{\arccot}{\operatorname{arccot}}
+\newcommand{\dlim}[1]{^{\color{gray}\prime}#1}
+\newcommand{\lian}[1]{
+    \underset{#1}{\operatorname{lian}\,}
+}
+\newcommand{\di}[1]{\,\mathrm{d}#1}
+% developpements limites
+\newcommand{\oveq}[1]{\overset{#1}{=}} 
+\newcommand{\olim}[1]{\mathit{o}\left(#1\right)}  % petit o
+\newcommand{\Olim}[1]{\mathcal{O}\left(#1\right)}  % grand O
+\newcommand{\Tlim}[1]{\mathcal{\Theta}\left(#1\right)}  % grand theta
+\newcommand{\eqlim}[1]{\overset{#1}{\sim}}  % equivalence
+\newcommand{\vect}[1]{\left\langle #1 \right\rangle}
+
+
+\renewenvironment{proof}{\paragraph{\textbf{证明：}}}{\hfill$\square$}
+
+\newtheorem{df}{定义}[section] 
+\newtheorem{pp}{命题}[section]
+\newtheorem{tm}{定理}[section]
+\newtheorem{ex}{例子}[section]
+\newtheorem{et}{例题}[section]
+\newtheorem{sk}{思考}[section]
+\newtheorem*{po}{公理}
+\newtheorem*{so}{解答}
+\newtheorem{xt}{习题}[section]
+\newtheorem{cor}{推论}[pp]
+
+\newtcolorbox{blk}[2][]
+  {colback = white, colframe = magenta!75!black, fonttitle = \bfseries,
+    colbacktitle = magenta!85!black, enhanced,
+    attach boxed title to top left={xshift=5mm, yshift=-2mm},breakable, 
+    title=#2, #1}
+
+% 列举环境的行间距
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=0pt,topsep=0pt}
+% 章节字体大小
+\titleformat{\section}{\zihao{-2}\bfseries}{ \thesection }{16pt}{}
+% 封面
+\title{\zihao{0} \bfseries 第四册}
+\author{\zihao{2} \texttt{大青花鱼}}
+% \date{\bfseries\today}
+\date{}
+% 正文
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\chapter{连续函数的和}
+
+小学的学习中，我们定义了有限个数的和。通过定义级数，我们学习了无穷多个数的求和。
+不过，正如我们所知，无穷也有可数与不可数之分。级数定义了可数多个数的求和。
+那么，是否能对不可数多个数求和呢？
+
+举例来说，实数集是不可数集合，实数区间中的点也是不可数集合。
+给定定义在实数集或某个区间$I$上的实变函数$f$，它将集合中每个点映射到函数值$f(x)$。
+那么，能否对这些函数值求和呢？
+
+这个问题比可数多个数的求和更为复杂，但在实际生活与生产中经常出现。
+比如，我们通常假设时间是连续变量，而评估各种物理作用的效果时，通常需要研究一段时间内作用的效果。
+例如，物体受的力在一定时间内的累计效果，称为冲量。它是物体导致速度变化的因素。
+设物体在$t$时刻受力为$F(t)$，那么，
+一段时间$[t_1, t_2]$上的冲量就是函数$F(t)$在$[t_1, t_2]$的累积。
+
+另一个例子是带电物体的电荷累计。我们假设物体表面每个点上的电荷是连续分布的，一点$P$上的电荷密度是$g(P)$。
+那么，物体表面的总电荷就是表面所有点上电荷密度的累积。
+
+因此，我们有必要定义函数在区间、平面区域乃至更复杂的形体上的求和。
+良好的定义并不是显而易见的。为这类求和给出符合实际生产生活中的需要的定义，
+是一门深奥的学问。在当前阶段，我们只给出简要的介绍，研究特定情形下的求和工具，不作更深入的探索。
+
+\section{函数图像的面积}
+
+首先来看一个物理学中的例子。设物体受到方向恒定，大小随时间$t$变化的力$F(t)$。
+定义$F(t)$在一段时间内的累积效果为冲量$I$。如果设物体刚受力时的冲量$I(0) = 0$，那么有定律：
+$$ I(t) - I(0) = m(v(t) - v(0)).$$
+其中$v$是物体的在受力方向上的速率。为了计算速率的改变量，我们希望计算$I(t)$，也就是$F(t)$的“和”。
+
+以时间为横轴，画出函数$F$的图像。如果$F$的大小也是恒定的，
+那么可以发现，$F$在一段时间$[t_1, t_2]$内的“总和”就是$F \cdot (t_2 - t_1)$。
+从图像来看，函数图像是水平的线段，$F(t)$的“和”就是函数图像与$x$轴之间的矩形的面积。
+
+如果物体受力大小不恒定，但分段恒定，于是函数图像可以看作若干段水平线段。
+于是，按分段求多个矩形的面积，然后求和，就得到$I$的改变量。
+
+然而，更常见的情况是：$F$的大小随时间不断改变。这时候，我们如何求$F$的“和”呢？
+
+需要知道的是，对一般的函数$F$，我们并不能很好地定义$I$的改变量。不过，对于物理学中常见的模型
+以及当前我们接触的简单形状来说，可以用比较简单的方法，定义“函数曲线的面积”。
+
+具体来说，$F$恒定或分段恒定的情形下，我们计算矩形的面积。从这个方法出发，对一般的函数$F$，
+我们也希望用一系列的矩形来近似表示“函数曲线的面积”。
+
+\begin{figure}[h] %this figure will be at the right
+    \vspace{4pt}
+    \centering
+    \includegraphics[width=0.4\textwidth]{tu/积分定义4.png}
+    \caption*{\texttt{用矩形近似表示函数曲线下方的面积}}
+\end{figure}
+
+% 具体的方法有两种。一种是把区间$[t_1, t_2]$竖直分割成很多段，把每段的函数曲线近似看作水平线段，
+% 这样就得到一系列左右并排的、“竖直”的矩形。另一种是把函数曲线下方的区域横着分割，得到一系列上下相叠、高度相同，
+% 但长度不同（由函数性质决定）的矩形。
+
+% 无论用哪种方法，如果只要矩形足够“细”，矩形面积就趋于某个极限，那么我们就把这个极限看作$F$的“和”。
+
+% 那么，怎样严格地说明这个定义呢？两种方法中，第一种方法可以用我们已经学过的概念严格说明。
+% 因此，我们目前采用第一种方法来定义。
+
+\begin{df}{\textbf{区间的分割}}
+    \mbox{} \\
+    给定闭区间$I=[a, b]$及一列从小到大排列的数$a = x_0 < x_1 < \cdots < x_{n-1} < x_n = b$。
+    则把区间$I$分成$n$个子区间$[x_0, x_1], \,\,\, [x_1, x_2], \,\,\,\cdots, \,\,\,[x_{n-1}, x_n]$，就是这一列数对区间的分割。
+    我们用数列$(x_0, x_1, \cdots, x_n)$表示这个分割。
+
+    如果区间的分割有$n$个子区间，就说它是区间的$\boldsymbol{n}$\textbf{阶分割}。
+    如果区间的分割使得所有子区间长度都不超过某个数$d$，就说它是区间的$\boldsymbol{d}$\textbf{–分割}。
+
+    % 设$f$是定义在$I$上的函数。给定区间的某个分割，
+    % 在该分割的各个子区间中取样$c_i\in [x_{i-1}, x_{i}]$，其函数值$f(c_i)$与区间长度的乘积的总和：
+    % $$ \sum_{i=1}^n (x_i - x_{i-1}) f(c_i) $$
+    % 称为函数关于该分割的\textbf{取样和}。
+\end{df}
+
+给定区间$I$上的函数$f$和区间$I$的分割，如果$f$在分割的每个子区间上都是常函数，就说$f$是\textbf{分段常函数}，也叫\textbf{阶梯函数}。
+
+举例来说，
+
+\begin{figure}[h] %this figure will be at the right
+    \vspace{4pt}
+    \centering
+    \includegraphics[width=0.8\textwidth]{tu/积分定义1.png} %  KSmrq，CC BY-SA 3.0，https://commons.wikimedia.org/w/index.php?curid=2335935
+    \caption*{\texttt{左一、左二是阶梯函数，右一不是阶梯函数}}
+\end{figure}
+
+\begin{df}{\textbf{阶梯函数的积合}}
+    设有定义在闭区间$I=[a, b]$上的阶梯函数$f$，对应分割$(x_0, x_1, \cdots , x_n)$。
+    设$f$在子区间$[x_i, x_{i+1}]$的函数值为$c_i$，则$f$在区间$I$上的\textbf{积合}定义为：
+    $$ \sum_{i=0}^{n-1} c_i(x_{i+1} - x_i).$$
+    
+    $f$在区间$I$的积合记为
+    $$ \int_I f(x)\di{x} \quad \mbox{或} \quad \int_a^b f(x)\di{x} $$
+\end{df}
+
+直观上看，把阶梯函数到$x$轴之间的部分看作一系列左右并排的矩形，阶梯函数的积合就是矩形面积的和。
+
+对一般的函数来说，是否能定义积合呢？我们采用逼近的思想。给定区间$I$上的函数$f$，
+我们可以找与$f$的曲线类似的阶梯函数。用这样的阶梯函数的积合，来近似定义$f$的函数曲线的面积。
+如果随着阶梯函数与$f$“越来越像”，它的积合趋于一个固定的极限值，那么，我们可以定义这个极限为$f$的函数曲线的面积。
+
+
+
+
+% \begin{figure}[h] %this figure will be at the right
+%     \vspace{4pt}
+%     \centering
+%     \includegraphics[width=0.5\textwidth]{tu/积分定义6.png} % from KSmrq，CC BY-SA 3.0，https://commons.wikimedia.org/w/index.php?curid=2347919
+%     \caption*{\texttt{不同的取样方法，随着分割越来越细，取样和面积收敛}}
+% \end{figure}
+
+% 从定义中可以看出，我们并不保证函数在任何闭区间上都能定义积合。
+% 如果函数在某个区间上无法定义积合，就说它在该区间上不可积。
+% 不过，我们接下来会看到，很多我们接触过的常见显式函数，都是可积的。
+
+% 定义中，我们假设函数总在$x$轴上方。如果函数有小于$0$的值，如何定义积分呢？
+
+% 设函数在$[a,b]$上求积。首先，如果函数$f$总小于零，它的图像总在$x$轴下方。它与$x$轴之间的面积可以说是“函数曲线上方的面积”。
+% 我们可以定义它的积合是$-f$积合的相反数。
+
+% 如果函数值有正有负，$x$轴把函数曲线分为上下两个部分。我们可以把$x$轴上方部分和$x$轴之间的面积记为正，
+% 把$x$轴下方部分和$x$之间的面积记为负。函数在区间上的积合就是正负面积之和。
+
+% 另一种定义方法是先把坐标轴往下平移，即用$y = -a $代替$x$轴。
+% 其中$a$是足够大的数，使得函数在区间上的值总大于$-a$。这样，我们定义
+
+% 具体来说，给定函数，如何求它在区间上的积合呢？
+
+% 从最简单的函数$f: x\mapsto x$出发。我们想知道它在区间$I = [0, 1]$上的合。
+
+% 把区间$I$做$n$–分割后取样，取样和为：
+% $$ S_n = \sum_{i=1}^n (x_i - x_{i-1}) f(c_i) = \sum_{i=1}^n (x_i - x_{i-1}) c_i. $$
+% 其中$0 = x_0 < x_1 < \cdots < x_n = 1$，$x_{i-1} \leqslant c_i \leqslant x_i$。
+
+% 于是，
+% $$ x_{i-1}^2 - x_i x_{i-1} = (x_i - x_{i-1}) x_{i-1} \leqslant (x_i - x_{i-1}) c_i \leqslant (x_i - x_{i-1}) x_i = x_i^2 - x_{i-1} x_i $$
+% 而
+% $$ \sum_{i=1}^n x_i^2 - x_{i-1} x_i = \sum_{i=1}^n \frac{x_i^2 - x_{i-1}^2}{2} + \frac{(x_i - x_{i-1})^2}{2} = \frac{x_n^2 - x_0^2}{2} + \sum_{i=1}^n\frac{(x_i - x_{i-1})^2}{2}. $$
+% $$ \sum_{i=1}^n x_{i-1}^2 - x_i x_{i-1} = \sum_{i=1}^n \frac{x_i^2 - x_{i-1}^2}{2} - \frac{(x_i - x_{i-1})^2}{2} = \frac{x_n^2 - x_0^2}{2} - \sum_{i=1}^n\frac{(x_i - x_{i-1})^2}{2}. $$
+% 所以，
+% $$ \left| S_n - \frac{x_n^2 - x_0^2}{2} \right| \leqslant \sum_{i=1}^n\frac{(x_i - x_{i-1})^2}{2} $$
+% 注意到$x_0$、$x_n$是定值，而对于$d$分割来说，$x_i - x_{i-1}$总小于$d$。取$d = \frac{1}{n}$，就有
+% $$ \left| S_n - \frac{x_n^2 - x_0^2}{2} \right| \leqslant \frac{1}{n}. $$
+% 因此，随着分割越来越细，$S_n$趋于$\frac{x_n^2 - x_0^2}{2} = \frac{1}{2}$。$f$在$I$上的合是$\frac{1}{2}$。
+
+% 对于一般区间$[a, b]$，同理可得$f$在$[a, b]$上的合是$\frac{b^2 - a^2}{2}$。
+
+% 可以看到，即便对最简单的函数，求合也不是显而易见的事情。我们在推导中也用到了一些技巧。
+% 那么，一般来说，对于更复杂的函数，如何求合呢？甚至，如何确定它们可积呢？
+% 且听下回分解。
+
+\begin{sk}
+    \mbox{} \\
+    \indent 1. 对比函数的积合与微变，它们有哪些类似之处？有哪些不同之处？\\
+    \indent 2. 函数关于区间分割的取样和，与关于函数微变哪个定理有相似之处？你有什么想法？\\
+    \indent 3. 使用上下相叠的矩形来定义积合，需要注意哪些问题？\\
+    \indent 4. 如果函数在区间$[a, b]$上某点无定义，是否还能定义它在区间上的积合？要注意哪些问题？
+\end{sk}
+
+\section{函数的定合}
+\section{合函数}
+
+\end{document}
