@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  10 JUL 2024 17:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  21 JUL 2024 21:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -217,6 +217,22 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen177
 \titlewidthlast=\dimen178
 \titlewidthfirst=\dimen179
+) (c:/texlive/2023/texmf-dist/tex/latex/verse/verse.sty
+Package: verse 2009/09/04 v2.4a verse typesetting
+\c@vslineno=\count291
+\c@poemline=\count292
+\c@fvsline=\count293
+\c@modulo@vs=\count294
+\c@verse@envctr=\count295
+\versewidth=\skip62
+\vgap=\skip63
+\vindent=\skip64
+\stanzaskip=\skip65
+\vleftskip=\skip66
+\vrightskip=\skip67
+\c@chrsinstr=\count296
+\beforepoemtitleskip=\skip68
+\afterpoemtitleskip=\skip69
 ) (c:/texlive/2023/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
  (c:/texlive/2023/texmf-dist/tex/latex/tipa/t3enc.def
@@ -248,7 +264,7 @@ Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 )
-\tipaTiiicode=\count291
+\tipaTiiicode=\count297
 \tipasavetokens=\toks18
 \tipachecktokens=\toks19
  (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -304,9 +320,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
+\Gm@cnth=\count298
+\Gm@cntv=\count299
+\c@Gm@tempcnt=\count300
 \Gm@bindingoffset=\dimen184
 \Gm@wd@mp=\dimen185
 \Gm@odd@mp=\dimen186
@@ -334,9 +350,9 @@ Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
 \@outputbox@depth=\dimen193
  (c:/texlive/2023/texmf-dist/tex/latex/bigfoot/perpage.sty
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count295
+\c@abspage=\count301
 )
-\c@pp@a@footnote=\count296
+\c@pp@a@footnote=\count302
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -403,12 +419,12 @@ Package fontspec Info: Font family '汉字之美仿宋GBK免费(0)' created for 
 (fontspec)             <->"STZhongsong/OT:language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-Package footmisc Info: Declaring symbol style circled on input line 17.
+Package footmisc Info: Declaring symbol style circled on input line 18.
 (c:/texlive/2023/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
 Package: xunicode-addon 2022/08/05 v3.9.1 addon file for xunicode
 \l__xunadd_tmp_coffin=\box62
 \l__xunadd_circle_coffin=\box63
-\l_xunadd_slot_int=\count297
+\l_xunadd_slot_int=\count303
 ) (c:/texlive/2023/texmf-dist/tex/xelatex/xunicode/xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
 
@@ -423,85 +439,85 @@ LaTeX Warning: Unused global option(s):
 (../语文/初中现代文阅读课文.aux)
 \openout1 = `初中现代文阅读课文.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 28.
  (c:/texlive/2023/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
-LaTeX Font Info:    Redeclaring math accent \check on input line 27.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
+LaTeX Font Info:    Redeclaring math accent \check on input line 28.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 27.
+(Font)              `operators' in the math version `normal' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 27.
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 28.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 27.
+(Font)              `operators' in the math version `bold' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 27.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 27.
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 27.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 27.
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 27.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 28.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -538,9 +554,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 28.
+(Font)              <14.4> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 29.
 [1
 
 
@@ -549,38 +565,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-])
-\tf@toc=\write3
-\openout3 = `初中现代文阅读课文.toc'.
-
+]
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 30.
+(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 21.
 
 
 LaTeX Font Warning: Font shape `TU/汉字之美仿宋GBK免费(0)/m/sl' undefined
-(Font)              using `TU/汉字之美仿宋GBK免费(0)/m/n' instead on input line 30.
+(Font)              using `TU/汉字之美仿宋GBK免费(0)/m/n' instead on input line 21.
 
-[3]
+[3] [4] [5] [6])
+\tf@toc=\write3
+\openout3 = `初中现代文阅读课文.toc'.
+
+ [7]
 第一章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4
+ [8
 
-] [5]
+] [9]
 第二章
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 54.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6
-
-]
-Underfull \vbox (badness 3612) has occurred while \output is active []
-
- [7] [8] [9]
-第三章
+(Font)              <12> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 55.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 55.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -589,57 +602,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11] [12]
-第四章
+ [11] [12] [13]
+第三章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [14
+
+] [15]
+第四章
+[16
 
 ]
-Underfull \vbox (badness 3291) has occurred while \output is active []
-
- [14]
-Underfull \vbox (badness 7667) has occurred while \output is active []
-
- [15]
-Underfull \vbox (badness 1895) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6859) has occurred while \output is active []
 
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18] [19]
+ [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 1147) has occurred while \output is active []
+ [20] [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-Underfull \vbox (badness 2012) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [24] [25]
+第五章
+
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [26
+
+] [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25] [26]
-第五章
-[27
-
-]
-Underfull \vbox (badness 5417) has occurred while \output is active []
-
  [28]
-Underfull \vbox (badness 5119) has occurred while \output is active []
-
- [29] [30]
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -663,109 +668,705 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [31] [32]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [29] [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34] [35] [36]
+ [31] [32] [33]
 第六章
+[34
 
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
-
-] [38]
+ [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [36] [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-Underfull \vbox (badness 1983) has occurred while \output is active []
+ [38]
+Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [41]
-Underfull \vbox (badness 2027) has occurred while \output is active []
-
- [42]
-Underfull \vbox (badness 2088) has occurred while \output is active []
-
- [43] [44]
+ [39] [40]
 第七章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45
+ [41
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46] [47] [48]
+] [42] [43]
 第八章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49
+ [44
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50] [51] [52]
+] [45] [46]
 第九章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53
+ [47
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54] [55] [56]
+] [48] [49]
 第十章
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4467) has occurred while \output is active []
 
- [57
+ [50
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53] [54] [55]
+第十一章
+[56
+
+] [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2856) has occurred while \output is active []
 
- [59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [59] [60]
+Underfull \vbox (badness 3364) has occurred while \output is active []
 
  [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1478) has occurred while \output is active []
 
  [62] [63] [64]
-第十一章
+第十二章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65
 
+] [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67] [68] [69]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70] [71] [72]
+第十三章
+[73
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-Underfull \vbox (badness 7595) has occurred while \output is active []
+ [74] [75] [76]
+第十四章
 
- [67]
-Underfull \vbox (badness 1888) has occurred while \output is active []
-
- [68]
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
- [69] [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71] [72] [73] [74] [75] (../语文/初中现代文阅读课文.aux)
+ [77
+
+] [78] [79] [80]
+第十五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83] [84]
+第十六章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86] [87]
+第十七章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88
+
+] [89] [90] [91]
+第十八章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93] [94]
+第十九章
+[95
+
+]
+Underfull \vbox (badness 3138) has occurred while \output is active []
+
+ [96]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99] [100] [101]
+第二十章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102
+
+]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [103] [104] [105]
+第二十一章
+[106
+
+] [107] [108]
+第二十二章
+[109
+
+] [110] [111]
+第二十三章
+[112
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113] [114]
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [115] [116] [117]
+第二十四章
+[118
+
+] [119]
+第二十五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120
+
+] [121] [122]
+第二十六章
+[123
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124] [125] [126] [127]
+第二十七章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [128
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [129]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+ [131]
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+ [132] [133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+ [136] [137] [138]
+第二十八章
+
+Underfull \vbox (badness 2913) has occurred while \output is active []
+
+ [139
+
+] [140]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141] [142] [143]
+第二十九章
+
+Underfull \vbox (badness 5607) has occurred while \output is active []
+
+ [144
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [145] [146]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147]
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [148] [149] [150]
+第三十章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [151
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155] [156] [157]
+第三十一章
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [158
+
+] [159] [160]
+第三十二章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [161
+
+] [162] [163]
+Underfull \vbox (badness 4353) has occurred while \output is active []
+
+ [164]
+Underfull \vbox (badness 7186) has occurred while \output is active []
+
+ [165]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [166]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [167] [168] [169]
+第三十三章
+
+Underfull \vbox (badness 2310) has occurred while \output is active []
+
+ [170
+
+] [171] [172] [173] [174]
+第三十四章
+[175
+
+] [176]
+第三十五章
+[177
+
+] [178] [179]
+第三十六章
+[180
+
+] [181] [182]
+第三十七章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184] [185]
+第三十八章
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [186
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [187] [188] [189] [190]
+第三十九章
+
+Underfull \vbox (badness 5388) has occurred while \output is active []
+
+ [191
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [192] [193] [194]
+第四十章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [195
+
+] [196] [197] [198]
+第四十一章
+[199
+
+]
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [200]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [201] [202] [203]
+第四十二章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [204
+
+]
+Missing character: There is no 𬸦 (U+2CE26) in font God-FangSongGBK-free/OT:language=dflt;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [205]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [206] [207]
+第四十三章
+[208
+
+] [209]
+Underfull \vbox (badness 3179) has occurred while \output is active []
+
+ [210] [211] [212]
+第四十四章
+[213
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [214]
+Underfull \vbox (badness 1077) has occurred while \output is active []
+
+ [215]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [216] [217] [218]
+第四十五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [219
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [220] [221] [222] [223]
+第四十六章
+
+Underfull \vbox (badness 4967) has occurred while \output is active []
+
+ [224
+
+]
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [225]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [226] [227] [228]
+第四十七章
+
+Underfull \vbox (badness 1052) has occurred while \output is active []
+
+ [229
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [230] [231] [232] [233]
+第四十八章
+[234
+
+] [235]
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [236]
+Underfull \vbox (badness 2486) has occurred while \output is active []
+
+ [237]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [238] [239] [240]
+第四十九章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [241
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [242] [243] [244]
+第五十章
+
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+ [245
+
+] [246] [247] [248]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [249]
+Underfull \vbox (badness 4634) has occurred while \output is active []
+
+ [250]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [251] [252]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [253]
+Underfull \vbox (badness 6859) has occurred while \output is active []
+
+ [254] [255] [256] [257]
+第五十一章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [258
+
+]
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [259] [260] [261]
+第五十二章
+
+Underfull \vbox (badness 2689) has occurred while \output is active []
+
+ [262
+
+]
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+ [263] [264] [265]
+第五十三章
+[266
+
+]
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [267]
+Underfull \vbox (badness 5359) has occurred while \output is active []
+
+ [268] [269] [270] [271]
+第五十四章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [272
+
+]
+Underfull \vbox (badness 1057) has occurred while \output is active []
+
+ [273] [274] [275]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [276] [277] [278]
+第五十五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [279
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [280]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [281] [282]
+第五十六章
+
+Underfull \hbox (badness 10000) in paragraph at lines 3216--3217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3225
+
+ []
+
+[283
+
+] [284] [285]
+第五十七章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [286
+
+]
+Underfull \vbox (badness 6608) has occurred while \output is active []
+
+ [287]
+Underfull \vbox (badness 2564) has occurred while \output is active []
+
+ [288] [289] [290]
+第五十八章
+
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [291
+
+]
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [292]
+Underfull \vbox (badness 3068) has occurred while \output is active []
+
+ [293]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [294] [295] [296]
+第五十九章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [297
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [298]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [299] [300] [301]
+第六十章
+
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
+ [302
+
+] [303]
+Underfull \vbox (badness 6428) has occurred while \output is active []
+
+ [304]
+Underfull \vbox (badness 3815) has occurred while \output is active []
+
+ [305]
+Underfull \vbox (badness 3568) has occurred while \output is active []
+
+ [306]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [307]
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [308] [309] [310]
+第六十一章
+[311
+
+]
+Underfull \vbox (badness 5403) has occurred while \output is active []
+
+ [312]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [313]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [314] [315] [316] [317]
+第六十二章
+
+Underfull \vbox (badness 2809) has occurred while \output is active []
+
+ [318
+
+]
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+ [319]
+Underfull \vbox (badness 5519) has occurred while \output is active []
+
+ [320]
+Underfull \vbox (badness 1142) has occurred while \output is active []
+
+ [321]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [322]
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [323]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [324] [325] [326]
+第六十三章
+[327
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [328]
+Underfull \vbox (badness 4832) has occurred while \output is active []
+
+ [329] [330] [331] [332] [333]
+第六十四章
+[334
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [335] [336] [337]
+第六十五章
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [338
+
+]
+Underfull \vbox (badness 3333) has occurred while \output is active []
+
+ [339] [340] [341]
+第六十六章
+
+Underfull \vbox (badness 5711) has occurred while \output is active []
+
+ [342
+
+] [343] [344] [345] [346] [347]
+第六十七章
+
+Underfull \vbox (badness 2326) has occurred while \output is active []
+
+ [348
+
+] [349]
+Underfull \vbox (badness 4886) has occurred while \output is active []
+
+ [350] [351] [352] (../语文/初中现代文阅读课文.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -776,12 +1377,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 63227 strings out of 474878
- 1386568 string characters out of 5763760
- 1935630 words of memory out of 5000000
- 85075 multiletter control sequences out of 15000+600000
- 562538 words of font info for 108 fonts, out of 8000000 for 9000
+ 64293 strings out of 474878
+ 1425959 string characters out of 5763760
+ 1943630 words of memory out of 5000000
+ 86133 multiletter control sequences out of 15000+600000
+ 565266 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,8n,97p,764b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,8n,97p,1143b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ../语文/初中现代文阅读课文.pdf (75 pages).
+Output written on ../语文/初中现代文阅读课文.pdf (352 pages).
