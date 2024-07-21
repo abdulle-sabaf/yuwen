@@ -10,6 +10,12 @@ for i in range(11):
     数转中[i] = 中文数字[i]
 
 
+def read(path):
+    with open(path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+        return lines
+
+
 def keys(dct):
     """return the keys of a dictionary as a list
     """
@@ -29,6 +35,7 @@ def dump_cn_json(path, content):
     """
     with codecs.open(path, "w", encoding="utf-8") as f:
         json.dump(content, f, indent=4, ensure_ascii=False)
+
 
 def sort_dict_with(dic, key="grade"):
     pox = {}

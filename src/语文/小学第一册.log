@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  30 MAY 2024 13:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  19 JUL 2024 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -860,94 +860,100 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [15] [16] [17] [18] [19] [20] [21]
+ [15] [16] [17]
+Underfull \vbox (badness 3108) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+ [19] [20] [21] [22] [23] [24] [25] [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27] [28] [29] [30] [31]
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 3364) has occurred while \output is active []
+
+ [33] [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+Underfull \vbox (badness 2277) has occurred while \output is active []
+
+ [36] [37] [38] [39]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [22] [23]
+ [43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25] [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27] [28] [29]
-Underfull \vbox (badness 4048) has occurred while \output is active []
-
- [30] [31] [32] [33] [34] [35] [36] [37] [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40] [41]
+ [44] [45] [46]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [42] [43] [44]
-Underfull \vbox (badness 2626) has occurred while \output is active []
-
- [45] [46] [47] [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [47] [48]
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
  [49] [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2626) has occurred while \output is active []
 
  [51] [52]
-Underfull \vbox (badness 5893) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
+Underfull \vbox (badness 1762) has occurred while \output is active []
+
+ [54] [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54] [55] [56]
+ [56] [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57] [58] [59] [60]
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-Underfull \vbox (badness 1454) has occurred while \output is active []
+ [59] [60] [61] [62]
+Underfull \vbox (badness 7740) has occurred while \output is active []
 
- [62] [63] [64] [65] [66]
+ [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [68] [69] [70]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [71]
-Underfull \vbox (badness 3312) has occurred while \output is active []
-
- [72] [73]
+ [64]
 Underfull \vbox (badness 2626) has occurred while \output is active []
+
+ [65] [66] [67] [68] [69] [70] [71] [72]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
-Underfull \vbox (badness 1454) has occurred while \output is active []
+Underfull \vbox (badness 2277) has occurred while \output is active []
 
  [75]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76] [77] [78] [79]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [91] [92]
+ [76] [77] [78] [79] [80]
 Underfull \vbox (badness 4048) has occurred while \output is active []
 
- [93]
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94]
+ [82] [83] [84] [85] [86] [87] [88] [89] [90] [91]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95]
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93] [94] [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [96]
@@ -959,52 +965,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [98]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99] [100] [101] [102] [103]
+ [99]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104]
+ [100] [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105] [106] [107]
+ [102]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108] [109]
+ [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110] [111] [112]
+ [104] [105] [106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
+ [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
+ [108]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [110] [111] [112] [113] [114]
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [115] [116]
-Underfull \vbox (badness 1590) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [117]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119] [120] [121] [122] [123] [124]
+ [118] [119] [120] [121] [122] [123] [124]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [125]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [126] [127]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [127] [128]
+ [128]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130] [131] [132]
+ [130]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [131]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [132]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [133]
@@ -1031,12 +1046,11 @@ Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [140]
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
@@ -1053,32 +1067,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [141]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 [142]
-Underfull \vbox (badness 2875) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [143]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [144]
+ [144] [145] [146]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145] [146] [147] [148]
+ [147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [149] [150]
+ [148]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [151]
+ [149]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [150] [151] [152] [153] [154]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156] [157]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158] [159]
 Underfull \vbox (badness 4048) has occurred while \output is active []
-
- [152] [153] [154] [155]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [156] [157] [158]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [159]
-Underfull \vbox (badness 2626) has occurred while \output is active []
 
  [160]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1089,21 +1107,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [163]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [164]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [165]
+ [164] [165]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [166]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [168]
+ [167] [168] [169]
 Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
-[169]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [170]
@@ -1114,7 +1126,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [171]
 Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ② (U+2461) in font [lmroman12-regular]:mapping=tex-text;!
-[172]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [172]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [173] [174] [175] [176]
@@ -1127,55 +1142,46 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [179] [180] [181]
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [182] [183]
-Underfull \vbox (badness 1092) has occurred while \output is active []
-
- [184]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [182] [183] [184]
+Underfull \vbox (badness 1590) has occurred while \output is active []
 
  [185]
 Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
+[186]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 2626) has occurred while \output is active []
-
- [186] [187]
+ [187]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 [188]
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [189]
-Underfull \vbox (badness 1762) has occurred while \output is active []
-
- [190]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [191]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [192]
+ [190] [191]
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [193]
+ [192] [193]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [194]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 [195]
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [196]
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
@@ -1209,34 +1215,27 @@ Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [199]
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [200]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [201]
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+[201]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [202]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [203]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \vbox (badness 1762) has occurred while \output is active []
-
- [204]
+Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
+[204]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [205]
@@ -1248,71 +1247,80 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [208] [209]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \vbox (badness 1590) has occurred while \output is active []
-
- [210]
+[210]
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ∶ (U+2236) in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [211] [212] [213] [214]
+ [211]
+Underfull \vbox (badness 2626) has occurred while \output is active []
+
+ [212] [213] [214]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [215]
-Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \vbox (badness 5893) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [216]
+Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [217]
-Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [218]
+Missing character: There is no ① (U+2460) in font [lmroman12-regular]:mapping=tex-text;!
+[219]
+Underfull \vbox (badness 2626) has occurred while \output is active []
+
+ [220]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [219] [220]
+ [221]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [221] [222]
+ [222]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [223]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [224] [225] [226]
+ [224]
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [225] [226]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [227]
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:mapping=tex-text;!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [228]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [229]
+Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:mapping=tex-text;!
+[229]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [230]
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [231] [232]
-Underfull \vbox (badness 4048) has occurred while \output is active []
+ [231]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [232]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [233] [234]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [235]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [236]
 Overfull \vbox (254.87584pt too high) has occurred while \output is active []
 
- [236] (../语文/小学第一册.aux)
+ [237] (../语文/小学第一册.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1331,4 +1339,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  102i,8n,106p,626b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ../语文/小学第一册.pdf (236 pages).
+Output written on ../语文/小学第一册.pdf (237 pages).
