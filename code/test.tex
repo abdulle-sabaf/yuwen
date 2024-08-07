@@ -1,16 +1,46 @@
-\documentclass{article}
-
-\usepackage{verse}
+\documentclass[12pt,a4paper]{book}  % http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}  % http://www.ctan.org/tex-archive/macros/latex/contrib/enumitem
 
 \begin{document}
 
-\poemtitle{Fleas}
-\settowidth{\versewidth}{What a funny thing is a flea}
-\begin{verse}[\versewidth]
-What a funny thing is a flea. \\
-You can’t tell a he from a she. \\
-But he can. And she can. \\
-Whoopee! \\
-\end{verse}
+\begin{description}[itemsep=1ex,leftmargin=2cm]
+    
+    \item[{\color{blue} 公爵}]安东尼奥有没有来？
+    
+    \item[安东尼奥]有，殿下。
+    
+    \item[公爵]我很为你不快乐；你是来跟一个心如铁石的对手当庭质对，一个不懂得怜悯、没有一丝慈悲心的不近人情的恶汉。
+    
+    \item[安东尼奥]听说殿下曾经用尽力量劝他不要过为已甚，可是他一味坚执，不肯略作让步。既然没有合法的手段可以使我脱离他的怨毒的掌握，我只有用默忍迎受他的愤怒，安心等待着他的残暴的处置。
+    
+    \item[公爵]来人，传那犹太人到庭。
+    
+    \item[萨拉里诺]他在门口等着；他来了，殿下。
+    
+\end{description}
+
+% % Set up a description list to hold the dialogue of the scene.  Increase the space between the list items, and set the left margin to 1cm.
+% \begin{description}[itemsep=1ex,leftmargin=2cm]
+
+%     % Where the scene or act begins with stage directions:
+%     \item[] \hfill \\
+%     \textit{A street in Bath.  Coachman crosses the stage. Enter Fag, looking after him.}
+    
+%     % Where the scene or act begins with dialogue, and no stage directions:
+%     %\item[] \hfill
+    
+%     % Wrap each character's name in \item[].  Wrap in-dialogue directions in \textit{}
+%     \item[FAG] \textit{(calls)} What!  Thomas! \textit{(aside)} Sure 'tis he! \textit{(calls)} What!  Thomas!  Thomas!
+    
+%     \item[THOMAS] Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant! Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!Hey!  Od's life!  Mr Fag!  Give me your hand, my old fellow-servant!
+    
+%     \item[FAG] Excuse my glove, Thomas.
+    
+%     \item[THOMAS] Sure, and the postillion be all come!
+    
+%     % Close the description list at the end of the scene.
+%     \end{description}
+
 
 \end{document}
