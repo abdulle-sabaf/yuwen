@@ -44,16 +44,17 @@ def dump_cn_json(path, content):
 def sort_dict_with(dic, key="grade"):
     pox = {}
     keys = []
-    for k, v in dic:
+    for k, v in dic.items():
         if v[key] not in pox:
-            pox[key] = []
-            keys.append(key)
-        pox[key].append((k, v))
-    
+            pox[v[key]] = []
+            keys.append(v[key])
+        pox[v[key]].append((k, v))
+
     out = []
     for key in sorted(keys):
         out.extend(pox[key])
     return out
+
 
 
 def generate_rgb_colors(colormap_name, k, min_brightness=0.3):
