@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  4 SEP 2024 15:30
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  8 SEP 2024 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2235,20 +2235,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [542]
-Package footmisc Info: Footnote number 11 out of range on input line 5197.
-Package footmisc Info: Footnote number 11 out of range on input line 5197.
-
 Underfull \vbox (badness 1552) has occurred while \output is active []
 
- [543]
-Package footmisc Info: Footnote number 12 out of range on input line 5203.
-Package footmisc Info: Footnote number 12 out of range on input line 5203.
-Package footmisc Info: Footnote number 13 out of range on input line 5207.
-Package footmisc Info: Footnote number 13 out of range on input line 5207.
- [544]
-Package footmisc Info: Footnote number 14 out of range on input line 5219.
-Package footmisc Info: Footnote number 14 out of range on input line 5219.
- [545] [546] [547]
+ [543] [544] [545] [546] [547]
 第一百七十八章
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2303,12 +2292,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第一百八十一章
 [569
 
-]
-
-Package footmisc Warning: Some footnote number(s) were out of range 
-(footmisc)                see log for details.
-
-[570] (../语文/小学现代文阅读课文.aux)
+] [570] (../语文/小学现代文阅读课文.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -2317,16 +2301,13 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 63771 strings out of 474878
- 1407785 string characters out of 5763760
+ 63825 strings out of 474878
+ 1411531 string characters out of 5763760
  1936630 words of memory out of 5000000
- 85623 multiletter control sequences out of 15000+600000
- 565196 words of font info for 113 fonts, out of 8000000 for 9000
+ 85679 multiletter control sequences out of 15000+600000
+ 565180 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,8n,97p,1140b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
