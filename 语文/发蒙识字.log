@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  7 SEP 2024 12:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.1.28)  8 SEP 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,18 +789,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第十一章
 [28
 
+] [29
+
+]
+第十二章
+[30
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [31
 
-] [30]
-第十二章
-[31
-
-] [32
-
-]
+] [32]
 第十三章
 [33
 
@@ -810,18 +810,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第十四章
 [35
 
+] [36
+
+]
+第十五章
+[37
+
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36
+ [38
 
-] [37]
-第十五章
-[38
-
-] [39
-
-]
+] [39]
 第十六章
 [40
 
@@ -843,19 +843,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第十九章
 [46
 
-] [47] [48
+] [47
 
 ]
 第二十章
-[49
+[48
 
-] [50
+] [49
 
 ]
 第二十一章
-[51
+[50
 
-] [52
+] [51] [52
 
 ]
 第二十二章
@@ -939,70 +939,88 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 第三十五章
 [79
 
+] [80
+
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [80
-
-] [81]
 第三十六章
-[82
+[81
+
+] [82
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83
-
-] [84]
 第三十七章
+[83
+
+] [84
+
+]
+第三十八章
 [85
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86
-
-] [87]
-第三十八章
-[88
+] [86
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89
-
-] [90]
 第三十九章
-[91
+[87
 
-] [92
+] [88
 
 ]
 第四十章
-[93
+[89
+
+] [90
+
+]
+第四十一章
+[91
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94
+ [92
 
-] [95]
-第四十一章
-[96
-
-] [97
-
-]
+] [93]
 第四十二章
-[98
-
-] [99
+[94
 
 ]
-第四十三章
-[100
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [101
+ [95
+
+] [96]
+第四十三章
+[97
+
+] [98
+
+]
+第四十四章
+[99
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100
+
+] [101]
+第四十五章
+[102
+
+] [103
+
+]
+第四十六章
+[104
+
+] [105
+
+]
+第四十七章
+[106
+
+] [107
 
 ] (../语文/发蒙识字.aux)
  ***********
@@ -1013,17 +1031,14 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 64294 strings out of 474878
- 1369474 string characters out of 5763760
+ 64298 strings out of 474878
+ 1369538 string characters out of 5763760
  1974630 words of memory out of 5000000
- 86105 multiletter control sequences out of 15000+600000
+ 86109 multiletter control sequences out of 15000+600000
  561834 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,6n,107p,540b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ../语文/发蒙识字.pdf (101 pages).
+Output written on ../语文/发蒙识字.pdf (107 pages).
