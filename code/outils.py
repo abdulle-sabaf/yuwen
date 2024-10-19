@@ -111,6 +111,13 @@ def set_char_colors(content, script_key, colormap_name="tab10", min_brightness=0
 
     nchar = len(name_set)
     rgb_colors = generate_rgb_colors(colormap_name, nchar, min_brightness=min_brightness)
+    while len(rgb_colors) < nchar:
+        if min_brightness > 0.98:
+            print(f"Error: unable to produce colors of enough brightness. number of colors: {len(rgb_colors)}, number of characters: {nchar}.")
+            break
+        min_brightness += 0.02
+        rgb_colors = generate_rgb_colors(colormap_name, nchar, min_brightness=min_brightness)
+    print(f"brightness: {min_brightness}")
     shuffle(rgb_colors)
     i = 0
     for _, key in name_set.items():
