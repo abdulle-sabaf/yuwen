@@ -1,8 +1,15 @@
+# 无关文件
 src/other/
+# 基础数据
 src/data/
 
+# 临时性文件、报告和日志文件、草稿、沙盒
 /**/* copy*
 /**/*.otf
-/**/report*
+/**/*report*
+/**/*sandbox*
+/**/*.log
+
+# 临时打印的文件
 code/*.pdf
 out/*.pdf
