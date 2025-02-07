@@ -1,0 +1,8 @@
+src/other/
+src/data/
+
+/**/* copy*
+/**/*.otf
+/**/report*
+code/*.pdf
+out/*.pdf
