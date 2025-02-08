@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{ctex} % 支持中文
+
+\newwrite\myoutfile % 定义一个新的写入流
+\immediate\openout\myoutfile=output.txt % 打开文件用于写入
+
+\begin{document}
+
+% 写入一些内容到文件
+\immediate\write\myoutfile{这是一些写入到文件的内容。}
+\immediate\write\myoutfile{每一行都会独立写入。}
+\immediate\write\myoutfile{文件名为 output.txt。}
+
+% 在文档中添加一些内容
+这是一个简单的文档，用于演示如何将内容写入到外部文件。
+
+% 关闭文件
+\immediate\closeout\myoutfile
+
+\end{document}

@@ -13,3 +13,8 @@ src/data/
 # 临时打印的文件
 code/*.pdf
 out/*.pdf
+
+/**/*.toc
+/**/*.synctex.gz
+/**/*.aux
+/**/草稿*
