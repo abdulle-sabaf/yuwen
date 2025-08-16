@@ -179,12 +179,13 @@ def dump_cn_json_compact(path, content, compact_level=2, max_elements=20, indent
             items = []
             for k, v in obj.items():
                 key_part = f'"{k}": '
+                # print(current_level, k, compact_keys)
                 
                 # 检查是否需要紧凑展示
                 if (current_level >= compact_level and (k in compact_keys or n >= max_elements)) or k in compact_keys:
                     value_part = json.dumps(v, ensure_ascii=False, separators=(',', ':'))
                 else:
-                    value_part = custom_dump(v, current_level + 1)
+                    value_part = custom_dump(v, current_level + 1,compact_level=compact_level,max_elements=max_elements,indent=indent, compact_keys=compact_keys)
                 
                 items.append(key_part + value_part)
             
@@ -203,7 +204,7 @@ def dump_cn_json_compact(path, content, compact_level=2, max_elements=20, indent
             else:
                 elements = []
                 for item in obj:
-                    elements.append(custom_dump(item, current_level + 1))
+                    elements.append(custom_dump(item, current_level + 1,compact_level=compact_level,max_elements=max_elements,indent=indent, compact_keys=compact_keys))
                 space = ' ' * (indent * (current_level - 1))
                 if elements:
                     out = '[\n' + ',\n'.join(
@@ -216,6 +217,7 @@ def dump_cn_json_compact(path, content, compact_level=2, max_elements=20, indent
         else:
             return json.dumps(obj, ensure_ascii=False)
     
+    print("compact_fields", compact_fields)
     # 将数据转换为紧凑格式字符串
     compact_str = custom_dump(content, compact_level=compact_level, max_elements=max_elements, indent=indent, compact_keys=compact_fields)
     
