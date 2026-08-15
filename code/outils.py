@@ -217,7 +217,7 @@ def dump_cn_json_compact(path, content, compact_level=2, max_elements=20, indent
         else:
             return json.dumps(obj, ensure_ascii=False)
     
-    print("compact_fields", compact_fields)
+    # print("compact_fields", compact_fields)
     # 将数据转换为紧凑格式字符串
     compact_str = custom_dump(content, compact_level=compact_level, max_elements=max_elements, indent=indent, compact_keys=compact_fields)
     

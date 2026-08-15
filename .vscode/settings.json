@@ -93,5 +93,6 @@
     "git.autofetch": true,
     // "jupyter.sendSelectionToInteractiveWindow": true,
     "window.zoomLevel": -1,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "markdown.validate.enabled": true
 }

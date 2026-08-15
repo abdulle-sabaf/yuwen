@@ -21,4 +21,8 @@
 		"body": "〔$TM_SELECTED_TEXT〕",
 		"description": "add a pair of hexogonal parentheses"
 	},
+	"test-snip": {
+    "prefix": "testme",
+    "body": ["Hello, snippet works!"]
+},
 }

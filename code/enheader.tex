@@ -1,0 +1,134 @@
+% ===== 核心排版设置 =====
+\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm, 
+            headheight=15pt, includehead]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+% ===== 视觉增强宏包 =====
+\usepackage{fontspec}
+\usepackage[perpage,symbol*]{footmisc}
+\usepackage[dvipsnames, svgnames, x11names]{xcolor}
+
+% ===== 内容结构宏包 =====
+\usepackage{array} % for better column formatting
+\usepackage{booktabs} % for nicer table rules
+\usepackage[most]{tcolorbox}
+\usepackage{enumitem}       % 列表定制
+\usepackage{graphicx}       % 插图支持
+\usepackage{amssymb}         % 示例文本
+
+% ===== 字体配置 =====
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setCJKmainfont[BoldFont=STZhongsong]{SimSun}
+\setCJKsansfont{Microsoft YaHei}
+\setCJKmonofont{NSimSun}
+
+\definecolor{lessonblue}{RGB}{45, 85, 155}
+\definecolor{examplebg}{RGB}{245, 248, 252}
+
+% ===== 例句环境 =====
+\tcbset{
+  enhanced,
+  breakable,
+  sharp corners,
+  boxsep=6pt,
+  colback=examplebg,
+  colframe=examplebg,
+}
+
+\newtcolorbox{liju}{
+  breakable,
+  colback=examplebg,
+  colframe=examplebg,
+%   borderline horizontal={1.2pt}{0pt}{lessonblue}, % horizontal rule
+  before upper={%
+    % \vspace{0.3\baselineskip}%
+    \noindent\textbf{\color{lessonblue}例句}%
+    % \vspace{0.3\baselineskip}%
+    \par\noindent{\color{lessonblue}\rule{\linewidth}{1.2pt}}%
+    \par\vspace{0.3\baselineskip}%
+    \setlength{\parindent}{0pt}%
+    \setlist[enumerate]{noitemsep, topsep=0pt, leftmargin=*}%
+  },
+%   after upper={\vspace{0.4\baselineskip}}
+}
+
+% 例句内容命令
+\newcommand{\enzh}[2]{%
+  \noindent \makebox[1em][l]{\raisebox{0.25ex}{\textcolor{lessonblue}{\large\ensuremath{\bullet}}}}%
+  {#1}\par
+  \noindent\hspace*{1.5em}{\small\textcolor{gray!30!black}{#2}}\par
+  \vspace{0.3\baselineskip}%
+}
+
+% 正误对照命令
+\newcommand{\compare}[2]{%
+  % 错误句子行
+  \noindent\makebox[1.8em][l]{\textcolor{red!70!black}{\large\ensuremath{\times}}}%
+  {\textcolor{red!30!black}{#1}}\par
+  % 正确句子行
+  \noindent\makebox[1.8em][l]{\textcolor{blue!70!black}{\large\checkmark}}%
+  {\textcolor{blue!30!black}{#2}}\par
+  \vspace{0.3\baselineskip}% 紧凑间距（体现对照关系）
+}
+
+% 例句讲解命令
+\newcommand{\explain}[3]{%
+  \noindent \makebox[1em][l]{\raisebox{0.25ex}{\textcolor{lessonblue}{\large\ensuremath{\bullet}}}}%
+  #1\par
+  \noindent\hspace*{1.5em}{\small\textcolor{gray!30!black}{#2}}\par
+  % ===== 语法讲解部分 (专业排版) =====
+  \noindent\hspace*{1em}{%
+    \color{lessonblue!80!black}%
+    \small%
+    % \raisebox{0.2ex}{\tiny\faLightbulbO}\ % 灯泡图标（可选）
+    \color{lessonblue!60!black}%
+    #3%
+  }\par
+  \vspace{0.4\baselineskip}%
+}
+
+% ==== 中文环境优化符号 ====
+% ==== 音标 ====
+% \newcommand{\phonetic}[1]{{\color{blue!70!black}/}{ #1}{{\color{blue!70!black}/}}}
+\newfontfamily\ipafont{Charis SIL}[
+  Path = fonts/,
+  UprightFont = *-R,
+  ItalicFont = *-I,
+  BoldFont = *-B,
+  BoldItalicFont = *-BI
+]
+\newcommand{\phonetic}[1]{{\color{blue!70!black}/\,}{\raisebox{0.25ex}{\ipafont\small\textcolor{blue!70!black}{#1}}}{{\color{blue!70!black}\,/}}}
+
+% ==== 箭头 ====
+\newcommand{\warr}{%
+%   \hspace{0.15em}% 前间距
+  \raisebox{-0.05ex}{\scalebox{0.9}{→}}% 提升0.2ex，缩小25%
+  \hspace{0.25em}% 后间距
+}
+
+% ==== 缀字符 ====
+\newcommand{\jie}[1]{%
+  \raisebox{-0.1ex}{\scalebox{0.85}{–}}% 提升0.2ex，缩小15%
+  \hspace{0.05em}% 微调间距
+  #1%
+}
+
+% ===== 全局样式设置 =====
+\ctexset{
+  chapter={
+    name={第,讲},
+    number={\chinese{chapter}},
+    format=\Huge\bfseries\color{lessonblue}\sffamily,
+    aftername=\hspace{0.5em},
+    beforeskip={2\baselineskip},
+    afterskip={1.2\baselineskip}
+  },
+  section={
+    format=\LARGE\bfseries\color{lessonblue!80!black}\sffamily,
+    aftertitle={\hspace{0.3em}\color{lessonblue!50!black}·\hspace{0.3em}},
+    beforeskip={1.2\baselineskip},
+    afterskip={0.8\baselineskip}
+  }
+}
