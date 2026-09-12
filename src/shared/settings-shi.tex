@@ -11,6 +11,7 @@
 \usepackage{eso-pic}
 \usepackage{graphicx} 
 \usepackage{tikz}
+\usepackage[absolute,overlay]{textpos}
 
 \ExplSyntaxOn
 \cs_set_protected:Npn \__xpinyin_make_pinyin_box:nnn #1#2#3
@@ -56,10 +57,9 @@
 \setmainfont{Mona Sans Light}
 % 定义 Century Schoolbook 字体
 \newfontfamily\schoolbookfont{Century Schoolbook}
-% 定义中文字体
-\setCJKmainfont[BoldFont=STZhongsong]{KaiTi}
-% 定义隶书字体族
-\setCJKfamilyfont{beishu}{YouYuan} % 定义背诵框字体
+\setCJKfamilyfont{xuwen}{KaiTi} % 定义序文字体
+\newcommand{\xuwen}{\CJKfamily{xuwen}} % 创建一个 \beishu 命令，方便调用
+\setCJKfamilyfont{beishu}{KingHwaOldSong} % 定义背诵框字体
 \newcommand{\beishu}{\CJKfamily{beishu}} % 创建一个 \beishu 命令，方便调用
 \xeCJKDeclareCharClass{CJK}{`0 -> `9}
 \xeCJKsetup{AllowBreakBetweenPuncts=true}
@@ -79,23 +79,24 @@
 
 % 定义背诵框环境
 \newtcolorbox{beisongbox}{
-    colback=yellow!10!white,   % 背景色
-    colframe=orange!60!black,  % 边框色
-    arc=2pt,                   % 圆角半径
-    boxrule=0.6pt,             % 边框线粗细
+    colback=white,   % 背景色
+    colframe=red!70!black,  % 边框色
+    arc=0pt,                   % 圆角半径
+    outer arc=0pt,
+    boxrule=0.8pt,             % 边框线粗细
     halign=center,             % 内容水平居中
     valign=center,             % 内容垂直居中
     nobeforeafter,             % 去掉框前后的额外间距
     boxsep=0pt,                % 内边距
     left=2pt,                  % 左内边距
     right=2pt,                 % 右内边距
-    top=2pt,                   % 上内边距
-    bottom=2pt,                % 下内边距
+    top=3pt,                   % 上内边距
+    bottom=3pt,                % 下内边距
     fontupper=\beishu\zihao{3}\color{red!70!black}\ziju{-0.0}, % 框内字体、字号等
 }
 % 背诵框命令
 \newcommand{\beisong}[1]{
-    \begin{textblock*}{30mm}(15mm, 13mm)   % 宽 30mm，左上角在 (15mm, 13mm)  
+    \begin{textblock*}{14mm}(15mm, 13mm)   % 宽 30mm，左上角在 (15mm, 13mm)  
     \begin{beisongbox}#1\end{beisongbox}
 \end{textblock*}
 }
