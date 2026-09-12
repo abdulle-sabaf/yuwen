@@ -1,0 +1,107 @@
+% 诗歌类导言区
+\usepackage{titlesec}
+\usepackage{xeCJK}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{xpinyin}
+\usepackage{tcolorbox}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{pifont}
+\usepackage[perpage,symbol*]{footmisc}
+\usepackage{eso-pic}
+\usepackage{graphicx} 
+\usepackage{tikz}
+
+\ExplSyntaxOn
+\cs_set_protected:Npn \__xpinyin_make_pinyin_box:nnn #1#2#3
+  {
+    \__xpinyin_leavevmode:
+    \hbox_overlap_right:n
+      {
+        \hbox_set:Nn \l__xpinyin_tmpa_box
+          { \__xpinyin_CJKsymbol_hook: \__xpinyin_save_CJKsymbol:n {#2} }
+        \hbox_set:Nn \l__xpinyin_tmpb_box
+          {
+            \l__xpinyin_pinyin_box_hook_tl
+            \__xpinyin_select_font:
+            \l__xpinyin_format_tl
+            \clist_if_exist:cT { c__xpinyin_multiple_ #1 _clist }
+              { \l__xpinyin_multiple_tl }
+            {#3}
+          }
+        % 原第 164–171 行的 \dim_compare 和 \box_resize_to_wd_and_ht 已删除
+        \box_move_up:nn { \l__xpinyin_vsep_tl }
+          {
+            \hbox_to_wd:nn { \box_wd:N \l__xpinyin_tmpa_box }
+              { \tex_hss:D \box_use_drop:N \l__xpinyin_tmpb_box \tex_hss:D }
+          }
+      }
+  }
+\ExplSyntaxOff
+
+% 设置背景图
+\newcommand{\SetPageBackground}[1]{%
+  \AddToShipoutPictureBG*{%
+    \AtPageLowerLeft{%
+    \begin{tikzpicture}[opacity=0.75]
+        \node[inner sep=0pt, anchor=south west] at (0,0)
+        {\includegraphics[width=\paperwidth,height=\paperheight,
+                            keepaspectratio]{#1}};
+    \end{tikzpicture}%
+    }%
+  }%
+}
+
+% 定义拼音使用的缺省字体
+\setmainfont{Mona Sans Light}
+% 定义 Century Schoolbook 字体
+\newfontfamily\schoolbookfont{Century Schoolbook}
+% 定义中文字体
+\setCJKmainfont[BoldFont=STZhongsong]{KaiTi}
+% 定义隶书字体族
+\setCJKfamilyfont{beishu}{YouYuan} % 定义背诵框字体
+\newcommand{\beishu}{\CJKfamily{beishu}} % 创建一个 \beishu 命令，方便调用
+\xeCJKDeclareCharClass{CJK}{`0 -> `9}
+\xeCJKsetup{AllowBreakBetweenPuncts=true}
+\DefineFNsymbols{circled}{{\ding{192}}{\ding{193}}{\ding{194}}{\ding{195}}{\ding{196}}{\ding{197}}{\ding{198}}{\ding{199}}{\ding{200}}{\ding{201}}}
+\setfnsymbol{circled}
+\xpinyinsetup{ratio=0.48,hsep={.5em plus .1em minus .1em},vsep={1em}}
+\setpinyin{一}{yi4}
+\setpinyin{尽}{jin4}
+\setpinyin{地}{di4}
+\setpinyin{长}{chang2}
+\setpinyin{朝}{zhao1}
+\setpinyin{罗}{luo2}
+\setpinyin{铺}{pu1}
+\setpinyin{泊}{bo2}
+\setpinyin{似}{si4}
+
+
+% 定义背诵框环境
+\newtcolorbox{beisongbox}{
+    colback=yellow!10!white,   % 背景色
+    colframe=orange!60!black,  % 边框色
+    arc=2pt,                   % 圆角半径
+    boxrule=0.6pt,             % 边框线粗细
+    halign=center,             % 内容水平居中
+    valign=center,             % 内容垂直居中
+    nobeforeafter,             % 去掉框前后的额外间距
+    boxsep=0pt,                % 内边距
+    left=2pt,                  % 左内边距
+    right=2pt,                 % 右内边距
+    top=2pt,                   % 上内边距
+    bottom=2pt,                % 下内边距
+    fontupper=\beishu\zihao{3}\color{red!70!black}\ziju{-0.0}, % 框内字体、字号等
+}
+% 背诵框命令
+\newcommand{\beisong}[1]{
+    \begin{textblock*}{30mm}(15mm, 13mm)   % 宽 30mm，左上角在 (15mm, 13mm)  
+    \begin{beisongbox}#1\end{beisongbox}
+\end{textblock*}
+}
+
+% 章节标题字体格式
+\titleformat{\chapter}{\centering\zihao{0}\bfseries}{}{0pt}{}
+\titleformat{\section}{\zihao{-2}\bfseries}{ }{0pt}{}
+\author{}
+\date{}
