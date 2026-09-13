@@ -1,0 +1,29 @@
+\usepackage{ctex}
+\usepackage{titlesec}
+\usepackage{xeCJK}
+\usepackage{verse}
+\usepackage{fontspec,xunicode,xltxtra}
+\usepackage{xpinyin}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{pifont}
+\usepackage{enumitem}
+\usepackage[perpage,symbol*]{footmisc}
+\usepackage[table,dvipsnames]{xcolor}
+
+\geometry{a4paper,left=1.5cm,right=1.5cm,top=2.5cm,bottom=2.5cm}
+\renewcommand{\footnotesize}{\fontsize{8.5pt}{10.5pt}\selectfont}
+\setmainfont{Mona Sans Light}
+\setCJKmainfont[BoldFont=STZhongsong]{方正书宋简体}
+\xeCJKsetup{AutoFallBack=true}
+\setCJKfallbackfamilyfont{\CJKrmdefault}{Source Han Serif SC}
+\setCJKfamilyfont{yiwen}{汉字之美仿宋GBK 免费} % 定义序文字体
+\newcommand{\yiwen}{\CJKfamily{yiwen}} % 创建一个 \beishu 命令，方便调用
+\xeCJKDeclareCharClass{CJK}{`0 -> `9}
+\xeCJKsetup{AllowBreakBetweenPuncts=true}
+\DefineFNsymbols{circled}{{\ding{192}}{\ding{193}}{\ding{194}}{\ding{195}}{\ding{196}}{\ding{197}}{\ding{198}}{\ding{199}}{\ding{200}}{\ding{201}}}
+\setfnsymbol{circled}
+\xpinyinsetup{ratio=0.5,hsep={.6em plus .6em},vsep={1em}}
+
+\setlength{\lineskip}{24pt}
+\setlength{\parskip}{6pt}
