@@ -11,7 +11,7 @@ src/data/
 /**/*.log
 
 # 临时打印的文件
-code/*.pdf
+code/*
 out/*.pdf
 
 /**/*.toc
